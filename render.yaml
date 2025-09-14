@@ -5,6 +5,3 @@ services:
     pythonVersion: "3.11"
     buildCommand: "./build.sh"
     startCommand: "streamlit run app.py"
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.11"
