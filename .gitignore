@@ -1,0 +1,54 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Data files (don’t push datasets to GitHub)
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# Model files (use external hosting or Git LFS)
+models/
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Build / Packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Render / deployment cache
+.pytest_cache/
